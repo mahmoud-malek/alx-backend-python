@@ -3,9 +3,9 @@
 """ a module contain sum_mixed function that takes a list
 and return their sum """
 
-from typing import Union
+from typing import List, Union
 
 
-def sum_mixed_list(mxd_list: Union[int, float]) -> float:
-    """ a function to return the sum values """
-    return sum(mxd_list)
+def sum_mixed(input_list: List[Union[int, float]]) -> float:
+    """ This function takes a list of floats and returns their sum """
+    return sum(input_list)
