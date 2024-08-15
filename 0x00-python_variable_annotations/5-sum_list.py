@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-""" This module contains a function that takes a list of floats and returns their sum """
+""" This module contains a function that takes a list of
+ floats and returns their sum """
 
 from typing import List
 
