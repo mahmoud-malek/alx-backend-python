@@ -6,6 +6,6 @@ and return their sum """
 from typing import Union
 
 
-def sum_mixed_list(mxd_list: Union[int, float]):
+def sum_mixed_list(mxd_list: Union[int, float]) -> float:
     """ a function to return the sum values """
     return sum(mxd_list)
